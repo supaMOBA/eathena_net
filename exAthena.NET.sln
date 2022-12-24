@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exAthena.NET", "src\exAthena.NET\exAthena.NET.csproj", "{833BB3E8-00FC-4EFC-A7D3-B1B360C2507E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{379C88A0-4F59-4715-9EA5-FEE2AD42FAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exAthena.NET.Test", "test\exAthena.NET.Test\exAthena.NET.Test.csproj", "{B2C324ED-AB06-4ECF-9B82-4DB97F26AE58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{833BB3E8-00FC-4EFC-A7D3-B1B360C2507E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833BB3E8-00FC-4EFC-A7D3-B1B360C2507E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833BB3E8-00FC-4EFC-A7D3-B1B360C2507E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833BB3E8-00FC-4EFC-A7D3-B1B360C2507E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C324ED-AB06-4ECF-9B82-4DB97F26AE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C324ED-AB06-4ECF-9B82-4DB97F26AE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C324ED-AB06-4ECF-9B82-4DB97F26AE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C324ED-AB06-4ECF-9B82-4DB97F26AE58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2C324ED-AB06-4ECF-9B82-4DB97F26AE58} = {379C88A0-4F59-4715-9EA5-FEE2AD42FAEF}
+	EndGlobalSection
+EndGlobal
